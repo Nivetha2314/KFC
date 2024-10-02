@@ -1,0 +1,656 @@
+<style>
+
+  *{
+    padding: 0;
+    margin:0;
+  }
+    ul
+    {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        margin-bottom:10px ;
+        height:50px;
+        width:100%;
+        background-color:none;
+        display: flex;
+        font-size: large;
+    }
+    li a
+    {
+      text-decoration: none;
+      padding:7px 5px;
+      padding-bottom: 5px;
+      text-align:center;
+      font-size:xsmall;
+      color:black;
+    
+    } 
+    li
+    {
+      display:inline-block;
+    }
+    li a:hover
+    {
+      background-color:black;
+      color:white;
+
+    }
+    ol{
+        border-color:black;
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        margin-bottom:3px ;
+        height:20px;
+        width:100%;
+        background-color:white;
+    }
+    li.b
+    {
+      text-decoration: none;
+      padding:1px 16px;
+      text-align:center;
+      font-size:small;
+      color:red;
+      display: inline-block;
+    } 
+    div.g
+    {
+      height:101px;
+      width:100%;
+      border:none;
+      background-color:white;
+    }
+    h2
+    {
+        background-color:red;
+        margin:0;
+        font-size:medium;
+        border:none;
+    }
+    div
+    {
+      
+      border:none;
+      height: 250px;
+      width: 200px;
+      display:inline-block;
+      margin-top:0;
+      font-size:small;
+      text-align: center;
+      line-height: normal;
+    }
+    div.img{
+      border:none;
+      height: 140px;
+      width:150px;
+    }
+    button{
+                color:white;
+                background-color:rgba(255, 0, 0, 0.9);
+                height:20px;
+                width:100px;
+                font-size:15px;
+                font-weight: bold;
+                border:none;
+                transition:0.8s;
+                
+            } 
+            button:hover{
+                background-color: orangered;
+            }    
+
+    div.a
+    {
+      border: none;
+      height: 250px;
+      width: 200px;
+      display:inline-block;
+      margin-top:0;
+      font-size:small;
+      text-align: center;  
+    }
+    div.a.img{
+      border:none;
+      height: 140px;
+      width:150px;
+    }
+    button{
+                color:white;
+                background-color:red;
+                height:20px;
+                width:100px;
+                font-size:15px;
+                font-weight: bold;
+                border:none;
+                transition:0.8s;
+                text-decoration-line:none;
+                
+            } 
+            button:hover{
+                background-color: red;
+            }    
+     div.b
+    {
+      border: none;
+      height: 250px;
+      width: 200px;
+      display:inline-block;
+      margin-top:0;
+      font-size:small;
+      text-align: center;  
+    }
+    div.b.img{
+      border:none;
+      height: 140px;
+      width:150px;
+    }
+    button{
+                color:white;
+                background-color:rgba(255, 0, 0, 0.9);
+                height:20px;
+                width:100px;
+                font-size:15px;
+                font-weight: bold;
+                border:none;
+                transition:0.8s;
+                
+            } 
+            button:hover{
+                background-color: red;
+            }    
+    div.c
+    {
+      border: none;
+      height: 250px;
+      width: 200px;
+      display:inline-block;
+      margin-top:0;
+      font-size:small;
+      text-align: center;  
+    }
+    div.c.img{
+      border:none;
+      height: 140px;
+      width:150px;
+    }
+    button{
+                color:white;
+                background-color:red;
+                height:20px;
+                width:100px;
+                font-size:15px;
+                font-weight: bold;
+                border:none;
+                transition:0.8s;
+                
+            } 
+            button:hover{
+                background-color: darkgreen;
+            }
+div.d
+    {
+      border: none;
+      height: 250px;
+      width: 200px;
+      display:inline-block;
+      margin-top:0;
+      font-size:small;
+      text-align: center;  
+    }
+    div.d.img{
+      border:none;
+      height: 140px;
+      width:150px;
+    }
+    button{
+                color:white;
+                background-color:red;
+                height:20px;
+                width:100px;
+                font-size:15px;
+                font-weight: bold;
+                border:none;
+                transition:0.8s;
+          }
+          button:hover{
+            background-color: darkgreen;
+          } 
+div.e
+    {
+      border: none;
+      height: 250px;
+      width: 200px;
+      display:inline-block;
+      margin-top:0;
+      font-size:small;
+      text-align: center;  
+    }
+    div.e.img{
+      border:none;
+      height: 140px;
+      width:150px;
+    }
+    button{
+                color:white;
+                background-color:red;
+                height:20px;
+                width:100px;
+                font-size:15px;
+                font-weight: bold;
+                border:none;
+                transition:0.8s;
+    }   
+  button:hover{
+                 background-color: darkgreen;
+                } 
+div.h
+     {
+       border: none;
+       height: 250px;
+       width: 200px;
+       display:inline-block;
+       margin-top:0;
+       font-size:small;
+       text-align: center;  
+      }
+    div.h.img{
+      border:none;
+      height: 140px;
+      width:150px;
+    }
+    button{
+                color:white;
+                background-color:red;
+                height:20px;
+                width:100px;
+                font-size:15px;
+                font-weight: bold;
+                border:none;
+                transition:0.8s;
+          } 
+          button:hover{
+             background-color: darkgreen;
+          }
+  div.j    
+      {
+       border: none;
+       height: 250px;
+       width: 200px;
+       display:inline-block;
+       margin-top:0;
+       font-size:small;
+       text-align: center;  
+      }
+    div.j.img{
+      border:none;
+      height: 140px;
+      width:150px;
+    }
+    button{
+                color:white;
+                background-color:red;
+                height:30px;
+                width:130px;
+                font-size:15px;
+                font-weight: bold;
+                border:none;
+                transition:0.8s;
+                border-radius: 10px;
+          }
+          button:hover{
+             background-color: darkgreen;
+          }
+  div.n 
+      {
+       border: none;
+       height: 250px;
+       width: 200px;
+       display:inline-block;
+       margin-top:0;
+       font-size:small;
+       text-align: center;  
+      }
+    div.n.img{
+      border:none;
+      height: 140px;
+      width:150px;
+    }
+    button{
+                color:white;
+                background-color:red;
+                height:30px;
+                width:130px;
+                font-size:15px;
+                font-weight: bold;
+                border:none;
+                transition:0.8s;
+                border-radius: 10px;
+          }
+          button:hover{
+             background-color: darkgreen;
+          }
+    .sa 
+      {
+       border: none;
+       height: 250px;
+       width: 200px;
+       display:inline-block;
+       margin-top:0;
+       font-size:small;
+       text-align: center;  
+      }
+ .sa.img{
+      border:none;
+      height: 150px;
+      width:150px;
+    }
+    button{
+            color:white;
+            background-color:red;
+            height:30px;
+            width:130px;
+            font-size:15px;
+            font-weight: bold;
+            border:none;
+            transition:0.8s;
+            border-radius: 10px;
+          }
+          button:hover{
+             background-color: darkgreen;
+            } 
+    table.k{
+      padding-top:30px ;
+      height: 150px;
+      width:100%;
+      background-color: black;
+      display:flex;
+    }         
+    td.m
+    {
+      padding-left: 10px;
+      text-decoration:none;
+      padding:2px 5px ;
+      text-align:center;
+      font-size:x-small;
+      color:white;
+      display:block;
+    }
+    td.mk{
+         padding-left: 50px;
+         text-align: center;
+         color:white ;
+    }
+   .k.ab{
+       
+       height: 30px;
+       width:10px;
+       display:block;
+       font-size: 1px;
+
+    }
+    @media(max-width:600px){
+      ul{
+        font-size: 2px;
+        height: 50px;
+        width: 100%;
+        display: inline-flex;
+    
+      
+      }
+      li{
+        font-size: 2px;
+        height: 30px;
+        width: 100%;
+        display:inline-flex;
+      }
+      li a{
+        font-size: 6px;
+      }
+      li.l{
+        font-size: 10px;
+        height: 40px;
+        display: inline;
+      }
+      
+      
+      }
+
+      
+    
+  </style> 
+  <body class="flex-containner">
+<ul>
+    <img src="./images/kfc_logo_png.png" width="30px"height="30px">
+    <li><img src="./images/icons8-home-50.png"width="20px" height="20px"><a href="index.html">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <li><img src="./images/icons8-login-50.png"width="20px" height="20px"><a href="login.html ">Login</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <li><img src="./images/icons8-contacts-50.png"width="20px" height="20px"><a href="contact us.html">Contacts</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <li><img src="./images/icons8-about-us-50.png"width="20px" height="20px"><a href="about .html">About Us</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <li><img src="./images/icons8-cart-50.png"width="20px" height="20px"><a href="">Add To Carts</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</ul>
+<ol class="flex-containner">
+  <li class="l"><img src="./images/icons8-burger-50 (1).png" height="18px" width="18px"><a href="burgers.html">Burgers</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li class="l"><img src="./images/icons8-chicken-box-50.png" height="18px" width="18px"><a href="fried  .html">Fried Chicken</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li class="l"><img src="./images/icons8-fried-chicken-100.png" height="18px" width="18px"><a href="combo.html">Combo Set</a></li></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li class="l"><img src="./images/icons8-wings-50.png" height="18px" width="18px"><a href="hot.html">Hot Wings</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+  <li class="l"><img src="./images/icons8-pizza-30.png" height="18px"width="18px"><a href="pizza.html">pizza</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</ol>
+<center>
+    <img src="./images/hb.jpg" height="70%" width="100%">
+</center><br><br>
+<div>
+    <div class="img">
+    <img src="./images/h2.webp" height="150px" width="150px">
+    </div><br><br>
+    <p>Insane Hot Wings</p>
+    <p>price:$68</p>
+    <p>Rating&reviews</p>
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+     <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+    <button><span><img src="./images/icons8-cart-50.png"height="20px"width="20px"></span>Order Now</button><br><br>
+    </div>
+    <div class="a">
+      <div class="img">
+    <img src="./images/h3.webp" height="150px" width="150px">
+      </div><br><br>
+    <p>bucket meals</p>
+    <p>price:$80</p>
+    <p>Rating&reviews</p>
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"> 
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+     <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+    <button><span><img src="./images/icons8-cart-50.png" height="20px"width="20px"></span>Order Now</a></button><br><br>
+    </div>
+    <div class="b">
+      <div class="img">
+    <img src="./images/h4.webp"height="150px" width="150px"> 
+      </div><br><br>
+    <p>chicken hot wings</p>
+    <p>price:$40</p>
+    <p>Rating&reviews</p>
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+    <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+    <button><span><img src="./images/icons8-cart-50.png" height="20px"width="20px"></span>Order Now</button><br><br>
+    </div>
+    <div class="c">
+      <div class="img">
+        <img src="./images/download (9).jpg"height="150px"width="150px">
+      </div><br><br>
+      <p> burger  </p>
+      <p>price:&60</p>
+      <p>Rating&reviews</p>
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+      <button><span><img src="./images/icons8-cart-50.png" height="20px"width="20px"></span>Order Now</button><br><br>
+    </div>
+    <div class="d">
+      <div class="img">
+        <img src="./images/h5.webp"height="150px"width="150px">
+      </div><br><br>
+      <p>fried chicken combo</p>
+      <p>price:$67</p>
+      <p>Ratings&Reviews</p>
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+      <button><span><img src="./images/icons8-cart-50.png" height="20px"width="20px"></span>Order Now</button><br><br>
+    </div>
+    <div class="e">
+      <div class="img">
+        <img src="./images/h6.webp"height="150px"width="150px">
+      </div><br><br>
+      <p>10ocs leg pieces bucketchicken</p>
+      <p>price:$89</p>
+      <p>Ratings&Reviews</p>
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+      <button><span><img src="./images/icons8-cart-50.png" height="20px"width="20px"></span>Order Now</button><br><br>
+    </div>
+    <div class="h">
+      <div class="img">
+        <img src="./images/h7.webp"height="150px" width="150px">
+      </div><br><br>
+      <p>burger frenchfries&pepsi</p>
+      <p>price:$125</p>
+      <p>Ratings &Reviews</p>
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+      <button><span><img src="./images/icons8-cart-50.png" height="20px"width="20px"></span>Order Now</button><br><br>
+    </div>
+    <div class="j">
+      <div class="img">
+        <img src="./images/h8.webp" height="150px"width="150px">
+      </div><br><br>
+      <p>veg burger</p>
+      <p>price:$15</p>
+      <p>Ratings&Reviews</p>
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+      <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+      <button><span><img src="./images/icons8-cart-50.png" height="20px" width="20px"></span>Order Now</button><br><br>
+    </div>
+    <div class="n">
+      <div class="img">
+        <img src="./images/h9.webp"height="150px"width="150px">
+        </div><br><br>
+        <p>2 Chicken Longer Burgers Lunch</p>
+        <p>price:$35</p>
+        <p>Ratings&Reviews</p>
+        <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+        <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+        <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+        <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+        <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+        <button><span><img src="./images/icons8-cart-50.png" height="20px" width="20px"></span>Order Now</button><br><br>
+        <br>
+      </div>
+      <div class=".sa">
+        <div class="img">
+          <img src="./images/h10.webp"height="150px" width="150px">
+        </div><br><br>
+        <p>burger frenchfries&pepsi</p>
+        <p>price:$125</p>
+        <p>Ratings &Reviews</p>
+        <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+        <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+        <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+        <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+        <button><span><img src="./images/icons8-cart-50.png" height="20px"width="20px"></span>Order Now</button><br><br><br>
+      </div>
+        <div class=".sa">
+          <div class="img">
+            <img src="./images/h11.webp"height="150px" width="150px">
+          </div><br><br>
+          <p>burger frenchfries&pepsi</p>
+          <p>price:$128</p>
+          <p>Ratings &Reviews</p>
+          <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+          <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+          <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+          <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+          <button><span><img src="./images/icons8-cart-50.png" height="20px"width="20px"></span>Order Now</button><br><br><br>
+        </div>
+        <div class=".sa">
+          <div class="img">
+            <img src="./images/h13.webp"height="150px" width="150px">
+          </div><br><br>
+          <p>burger</p>
+          <p>price:$12</p>
+          <p>Ratings &Reviews</p>
+          <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+          <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+          <img src="./images/icons8-star-filled-50.png" height="14px" width="14px">
+          <img src="./images/icons8-star-filled-50.png" height="14px" width="14px"><br><br>
+          <button><span><img src="./images/icons8-cart-50.png" height="20px"width="20px"></span>Order Now</button><br><br><br>
+        </div>
+          <br>
+      <footer>
+        <table>
+      <table class="k">
+      <th>KFC India </th>
+      <td>
+      <td class="m">About KFC</td>
+      <td  class="m">KFC Care</td>
+      <td class="m">Careers</td>
+      <td class="m">Our Golden Past</td>
+      <td class="m">Responsible Disclosure</td>
+      </td>
+      <th class="k">
+      <th>Legal</th>
+      <td class="m">Terms&Conditions</td>
+      <td class="m">Privacy and Policy</td>
+      <td class="m">Disclaimer</td>
+      <td class="m">caution notice</td>
+      </td>
+      <th class="k">
+        <th>kfc</th>
+        <td class="m">Menu</td>
+        <td class="m">Order Lookup</td>
+        <td class="m">Gift Card</td>
+        <td class="m">Nutrition & Allergen</td>
+        </td>
+        <th class="k">
+          <th>kfc</th>
+          <td class="m">Support</td>
+          <td class="m">Get Help</td>
+          <td class="m">About Us</td>
+          <td class="m">Contact us</td>
+          </td>
+          <th class="k">
+             </th>
+      <td class="mk">To Follow Us On</td>
+    <td class="k,ab"><img src="./images/icons8-facebook-50.png" height="30px"width="30px"></td>&nbsp;
+    <td class="k,ab"><img src="./images/icons8-instagram-circle-50.png" height="30px"width="30px"></td>
+    <td class="k,ab"><img src="./images/icons8-whatsapp-50.png" height="30px"width="30px"></td>
+    <td class="k,ab"><img src="./images/icons8-youtube-50.png" height="30px"width="30px"></td>
+            </body>
+             
+    
+          
+  
+        
+          
+  
+        
+          
+  
+
